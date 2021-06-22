@@ -37,6 +37,8 @@ class Solution: # 解答的物件模版 (類別)
     def energy(self): # 尋找最低點的能量函數
         return -1*self.height()               # 能量 = -1 * 高度
 ```
+>>energy取最低點
+>>height取最高點
 
 * 引入答案值
 ```
