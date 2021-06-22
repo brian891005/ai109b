@@ -206,3 +206,47 @@ x=0.99000 f(x)=-0.00010
 x=1.00000 f(x)=-0.00000
 ```
 ![Pic](https://github.com/brian891005/ai109b/blob/main/Note/%E5%9C%96%E7%89%87/function.jpg)
+
+* 程式碼
+>>二維爬山演算法
+>>HillClimbingSimple2.py
+```
+import random
+
+def hillClimbing(f, x, y, h=0.01):
+    failCount = 0                    # 失敗次數歸零
+    while (failCount < 10000):       # 如果失敗次數小於一萬次就繼續執行
+        fxy = f(x, y)                # fxy 為目前高度
+        dx = random.uniform(-h, h)   # dx 為左右偏移量
+        dy = random.uniform(-h, h)   # dy 為前後偏移量
+        if f(x+dx, y+dy) >= fxy:     # 如果移動後高度比現在高
+            x = x + dx               #   就移過去
+            y = y + dy
+            print('x={:.3f} y={:.3f} f(x,y)={:.3f}'.format(x, y, fxy))
+            failCount = 0            # 失敗次數歸零
+        else:                        # 若沒有更高
+            failCount = failCount + 1#   那就又失敗一次
+    return (x,y,fxy)                 # 結束傳回 （已經失敗超過一萬次了）
+
+def f(x, y):
+    return -1 * ( x*x -2*x + y*y +2*y - 8 )
+
+hillClimbing(f, 0, 0)
+
+```
+* 執行結果
+
+```
+PS D:\ccc\course\ai\python\02-optimize> python hillClimbing2r.py
+x=0.009 y=0.003 f(x,y)=8.000
+x=0.011 y=-0.004 f(x,y)=8.012
+x=0.018 y=-0.008 f(x,y)=8.031
+x=0.020 y=-0.016 f(x,y)=8.051
+x=0.019 y=-0.022 f(x,y)=8.071
+x=0.017 y=-0.027 f(x,y)=8.081
+...
+x=1.000 y=-1.001 f(x,y)=10.000
+x=1.000 y=-0.999 f(x,y)=10.000
+x=1.000 y=-1.000 f(x,y)=10.000
+x=1.000 y=-1.000 f(x,y)=10.000
+```
