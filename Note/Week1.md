@@ -40,3 +40,23 @@
 使用者體驗是指一個人使用一個特定產品或系統或服務時的行為、情緒與態度。包括人機互動與擁有產品時的操作面向、體驗面向、情感面向、意義面向、與價值面向；還包含使用者對於系統的功能、易用、效率的感受，因此使用者經驗在本質上可以視為一個人對於系統的主觀感受與主觀想法。
 
 使用者經驗是動態的，由於不斷變化的使用情況、不停變化的各個系統，以及變化發生背後的情境與脈絡，因此它是不斷隨著時間而變化。總而言之，使用者經驗是關於使用者如何和產品互動及體驗產品。
+
+* 案例
+    * 註冊 Sign up / Registration
+    Zeplin, Connected space for product teams:
+    不論任何產品，註冊幾乎是必備流程。在個人註冊過這麼多產品後，Zeplin算是數一數二流暢又讓人愉悅的。仔細觀察簡單的註冊畫面。
+    
+    它包含：
+    * 即時反饋 Instant feedback
+    不論是成功或是輸入錯誤，Zeplin利用顏色及圖示告知使用者目前的狀態
+
+    * 鼓勵語氣 Encouraging tone
+    當輸入完畢時，「不錯喲 Looks good！」、「讚喔Aweome！」，右方的確認訊息十分正面，肯定使用者的輸入動作，讓用戶感覺良好
+
+    * 提供有用的資訊Informative message
+    當在輸入電子郵件、名稱及密碼時，同時提供使用者相關資訊
+
+* 參考資訊
+[參考資料](https://medium.com/uxeastmeetswest/%E5%A5%BDux%E8%A8%AD%E8%A8%88%E6%A1%88%E4%BE%8B%E5%88%86%E4%BA%AB-%E4%B8%8A-%E4%B8%83%E5%A4%A7%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%83%85%E5%A2%83-good-ux-design-examples-7-basic-user-scenarios-bcd9fe0f22e4)
+
+
