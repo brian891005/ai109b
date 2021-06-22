@@ -205,4 +205,4 @@ x=0.98000 f(x)=-0.00040
 x=0.99000 f(x)=-0.00010
 x=1.00000 f(x)=-0.00000
 ```
-![Pic](https://github.com/brian891005/ai109b/tree/main/Note/%E5%9C%96%E7%89%87/function.jpg)
+![Pic](https://github.com/brian891005/ai109b/blob/main/Note/%E5%9C%96%E7%89%87/function.jpg)
