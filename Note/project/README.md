@@ -1,7 +1,7 @@
 # 人臉辨識系統
 * Code來源於[faceScore.py](https://gitlab.com/ccc109/ai/-/blob/master/09-image/02-face/face1/faceScore.py)，加上註解並加以說明。
 
-* 參考資料
+* 參考資料<br>
 [實作及時人臉偵測教學](https://blog.gtwang.org/programming/python-opencv-dlib-face-detection-implementation-tutorial/#google_vignette)<br>
 [老師的程式碼](https://gitlab.com/ccc109/ai/-/blob/master/09-image/02-face/face1/faceScore.py)<br>
 [dlib安裝心得](https://ithelp.ithome.com.tw/articles/10231535)<br>
