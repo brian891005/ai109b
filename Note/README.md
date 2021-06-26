@@ -13,6 +13,7 @@
 [第十二週](https://github.com/brian891005/ai109b/blob/main/Note/Week12.md) | 自然語言與人造語言 <br> Chomsky Hierarchy(喬姆斯基語言階層)  <br> BNF與生成語法 <br> 
 [第十三週](https://github.com/brian891005/ai109b/blob/main/Note/Week13.md) | 反傳遞演算法 <br> Pytorch <br>
 [第十四週](https://github.com/brian891005/ai109b/blob/main/Note/Week14.md) | 人工智慧與神經網路 <br> 神經網路 <br>
+[第十五週](https://github.com/brian891005/ai109b/blob/main/Note/Week15.md) | Colab <br> 機器學習 (Machine Learning) <br> One-hot <br>
 
 #### 授權聲明
 * [授權申明](https://github.com/brian891005/sp109b/blob/main/Note/授權聲明/README.md)
