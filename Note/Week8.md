@@ -31,4 +31,5 @@ Alpha-Beta 修剪法 其實是「Min-Max 對局搜尋法」的一個修改版，
 畫成圖表(非擬人~人)就會呈現成一條深的谷,稱作恐怖谷。
 
 * 圖例
+
 ![Pic](https://github.com/brian891005/ai109b/blob/main/Note/%E5%9C%96%E7%89%87/恐怖谷.jpg)
