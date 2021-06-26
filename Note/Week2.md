@@ -84,9 +84,59 @@ start:  energy(0.000)=4.000
 373 : energy(2.000)=0.000
 solution:  energy(2.000)=0.000
 ```
+>>以亂數決定其值
 * 圖例
 ![Pic](https://github.com/brian891005/ai109b/blob/main/Note/%E5%9C%96%E7%89%87/height.jpg)
 
 #### 技術
 * 物件導向技巧----->self的應用
 * 資料結構化------->串聯各結構
+
+
+* solutionArray.py
+多變數函式
+```
+from solution import Solution
+from random import random, randint
+
+class SolutionArray(Solution):
+    def neighbor(self):           #  多變數解答的鄰居函數。
+        nv = self.v.copy()        #  nv=v.clone()=目前解答的複製品
+        i = randint(0, len(nv)-1) #  隨機選取一個變數
+        if (random() > 0.5):      #  擲骰子決定要往左或往右移
+            nv[i] += self.step
+        else:
+            nv[i] -= self.step
+        return SolutionArray(nv)  #  傳回新建的鄰居解答。
+
+    def energy(self): #  能量函數
+        x, y, z =self.v
+        return x*x+3*y*y+z*z-4*x-3*y-5*z+8 #  (x^2+3y^2+z^2-4x-3y-5z+8)
+
+    def str(self):    #  將解答轉為字串的函數，以供列印用。
+        return "energy({:s})={:f}".format(str(self.v), self.energy())
+
+
+```
+
+* 結果
+
+```
+user@LAPTOP-8K49E37L MINGW64 ~/Desktop/人工智慧/teaching/ai/02-optimize/01-hillclimbing/04-framework (master)
+$ python hillClimbingArray.py
+start:  energy([1, 1, 1])=1.000000
+2 : energy([1, 1, 1.01])=0.970100
+3 : energy([1.01, 1, 1.01])=0.950200
+6 : energy([1.01, 0.99, 1.01])=0.920500
+9 : energy([1.01, 0.98, 1.01])=0.891400
+                        .
+                        .
+                        .
+911 : energy([2.000000000000001, 0.49999999999999956, 2.469999999999991])=-2.999100
+916 : energy([2.000000000000001, 0.49999999999999956, 2.4799999999999907])=-2.999600
+919 : energy([2.000000000000001, 0.49999999999999956, 2.4899999999999904])=-2.999900
+920 : energy([2.000000000000001, 0.49999999999999956, 2.4999999999999902])=-3.000000
+solution:  energy([2.000000000000001, 0.49999999999999956, 2.4999999999999902])=-3.000000
+```
+
+* solutionEquation.py
