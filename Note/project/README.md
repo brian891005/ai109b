@@ -2,9 +2,9 @@
 * Code來源於[faceScore.py](https://gitlab.com/ccc109/ai/-/blob/master/09-image/02-face/face1/faceScore.py)，加上註解並加以說明。
 
 * 參考資料
-[實作及時人臉偵測教學](https://blog.gtwang.org/programming/python-opencv-dlib-face-detection-implementation-tutorial/#google_vignette)
-[老師的程式碼](https://gitlab.com/ccc109/ai/-/blob/master/09-image/02-face/face1/faceScore.py)
-[dlib安裝心得](https://ithelp.ithome.com.tw/articles/10231535)
+[實作及時人臉偵測教學](https://blog.gtwang.org/programming/python-opencv-dlib-face-detection-implementation-tutorial/#google_vignette)<br>
+[老師的程式碼](https://gitlab.com/ccc109/ai/-/blob/master/09-image/02-face/face1/faceScore.py)<br>
+[dlib安裝心得](https://ithelp.ithome.com.tw/articles/10231535)<br>
 
 ## 介紹
 人臉偵測是一項相當成熟的技術，不管是數位相機或是手機在拍照時，都可以自動偵測人臉並對焦，而在自行開發的程式當中，若要加入人臉偵測的功能也非常容易，只要串接相關的模組即可實作出相當專業的程式。
