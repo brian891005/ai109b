@@ -30,6 +30,7 @@
     * ML ：  機器學習函式庫，包含模式分類和迴歸分析等；
     * CVCAM ：視訊影象處理模組(一般還需要安裝DirectShow。此模組在2.0之後的版本好像不再包含，而直接使用highgui)。
     * 架構
+    
     ![Pic](https://github.com/brian891005/ai109b/blob/main/Note/%E5%9C%96%E7%89%87/cv2.jpg)
 
 * dlib --->神經網路
