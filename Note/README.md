@@ -9,7 +9,9 @@
 [第八週](https://github.com/brian891005/ai109b/blob/main/Note/Week8.md) | 電腦下棋 <br> 恐怖谷理論   <br> AlphaGo <br>
 [第九週](https://github.com/brian891005/ai109b/blob/main/Note/Week9.md) | 神經網路 <br> 梯度下降法   <br>
 [第十週](https://github.com/brian891005/ai109b/blob/main/Note/Week10.md) | 笛摩根定律 <br> 謂詞函數   <br> 邏輯 <br>
-[第十一週](https://github.com/brian891005/ai109b/blob/main/Note/Week11.md) | 傅立葉轉換 <br> 科學計算常用函式庫   <br> 
+[第十一週](https://github.com/brian891005/ai109b/blob/main/Note/Week11.md) | 傅立葉轉換 <br> 科學計算常用函式庫   <br>
+[第十二週](https://github.com/brian891005/ai109b/blob/main/Note/Week12.md) | 自然語言與人造語言 <br> Chomsky Hierarchy(喬姆斯基語言階層)  <br> BNF與生成語法 <br> 
+[第十三週](https://github.com/brian891005/ai109b/blob/main/Note/Week13.md) | 反傳遞演算法 <br> Pytorch  <br>
 
 #### 授權聲明
 * [授權申明](https://github.com/brian891005/sp109b/blob/main/Note/授權聲明/README.md)
