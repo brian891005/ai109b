@@ -141,4 +141,4 @@ cv2.destroyAllWindows()
     ![Pic](https://github.com/brian891005/ai109b/blob/main/Note/%E5%9C%96%E7%89%87/test2.jpg)
 
 ## 本專案只用於學習所用
-* [LICENSE](https://github.com/victor0520/ai109b/blob/main/ai_final/LICENSE.md)
+* [LICENSE](https://github.com/brian891005/sp109b/blob/main/Note/授權聲明/README.md)
